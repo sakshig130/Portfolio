@@ -89,6 +89,7 @@
   h1, h2, h3 {
     color: #64b5f6;
     margin-bottom: 15px;
+      display:cover;
   }
   
   .project {
