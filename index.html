@@ -2,28 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home | Sakshi Gupta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakshi | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
+  <header class="navbar">
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  <header>
-    <h1 class="typewriter">Hi, I'm Sakshi Gupta</h1>
-    <p class="intro">Transforming imagination into user-friendly digital spaces.</p>
-  </header>
+</header>
 
+  <!-- Social Icons -->
+  <div class="social-fixed">
+    <a href="https://www.linkedin.com/in/your-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/sakshig130" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+  <!-- Home Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <img src="images/sakshi.jpeg" alt="Sakshi's photo" class="hero-img" />
+      <div>
+        <h1>Hello, I'm <span class="highlight">Sakshi Kumari Gupta</span></h1>
+        <p class="typewriter"></p>
+        <a href="resume/Resume.pdf" download class="btn glow">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <img src="images/vandana.jpeg" alt="Sakshi photo" class="about-img" />
+    <div class="about-text">
+      <p>
+        Hi, I'm Sakshi Kumari Gupta, a Computer Science Engineering student who enjoys building websites. I work with HTML, CSS, JavaScript, and React to make clean and responsive designs. During my internships and personal projects, I’ve learned how to create user-friendly websites and work with real APIs. I’m always ready to learn more, improve my skills, and build useful things with code.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Product Filter App</h3>
+        <a href="https://sakshig130.github.io/product-filter-app/" target="_blank">Live</a>
+      </div>
+      <div class="project">
+        <h3>To-Do List</h3>
+        <a href="https://sakshig130.github.io/To-Do-List/" target="_blank">Live</a>
+      </div>
+      <div class="project">
+        <h3>Shopping App</h3>
+        <a href="https://sakshig130.github.io/Shopping-App/" target="_blank">Live</a>
+      </div>
+      <div class="project">
+        <h3>Productivity Dashboard</h3>
+        <a href="https://sakshig130.github.io/productivity-dashboard/" target="_blank">Live</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Python</li>
+      <li>C</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>RESTful APIs</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Internships Section -->
+  <section class="internships" id="internships">
+    <h2>Internships</h2>
+    <ul>
+      <li>ApexPlanet Web Development Internship – Jan 2025 to Present</li>
+      <li>CodTech IT Solutions – Dec 2024 (1 Month)</li>
+      <li>CodSoft Python Internship – Dec 2024 (1 Month)</li>
+    </ul>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="achievements" id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed Power BI Crash Course – Mar 2025</li>
+      <li>Selected for Super30 CSRL Kolkata – 1 Year Academic Program</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p class="form-message"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Sakshi Gupta</p>
-    <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+    <p>&copy; 2025 Sakshi Kumari Gupta</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
